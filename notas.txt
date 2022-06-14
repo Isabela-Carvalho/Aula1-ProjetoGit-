@@ -10,4 +10,25 @@ Comandos para se utilizar no GitBashHere
 -git remote add origin link do repositório Github.
 -git push -u origin master.
 
-Alteração de Branch
+Comandos  de Branch
+
+-git reflog - mostra as versões com um número  de id, a mais  atual fica em primeiro.
+
+Navegar entre as versões:
+- git reset --hard (nº id da versão que desejo navegar)
+
+- git branch - mostra quais branchs estão ativas
+
+Criar branch:
+- git branch (nome da branch) ex: staging
+nome comum de branchs que recebem atuaçlizações que ainda não estão testadas, em produção, staging.
+
+Mudar de brach:
+*master
+staging
+
+A branch com asterisco é a branch atual que está sendo modificada.
+
+Para alterar de branch usar o comando: git checkout staging
+master
+*staging
