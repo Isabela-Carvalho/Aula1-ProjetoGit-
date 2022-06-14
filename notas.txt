@@ -1,1 +1,11 @@
 Aula Git e GitHub, projeto teste.
+
+Comandos para se utilizar no GitBashHere
+
+- git init - inicia um repositório
+- git status - analiza o status do repositório, se arquivos ainda não foram enviados ou se já foram enviados . 
+-git add nome do arquivo que foi alterado - adiciona arquivo na área de staggin.
+-git add . - adiciona todos os arquivos criados e modificados na área de stadding.
+- git commit -m "primeiro  commit" - dar commit no repositório.
+-git remote add origin link do repositório Github.
+-git push -u origin master.
