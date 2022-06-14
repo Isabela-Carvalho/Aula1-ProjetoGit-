@@ -9,3 +9,5 @@ Comandos para se utilizar no GitBashHere
 - git commit -m "primeiro  commit" - dar commit no repositório.
 -git remote add origin link do repositório Github.
 -git push -u origin master.
+
+Alteração de Branch
